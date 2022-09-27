@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ChatInteractor</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>kindlysdk</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="kindlysdk::no.kindly.android.chat.domain/ChatInteractor///PointingToDeclaration//-480908263">
+  <div class="breadcrumbs"><a href="../../../index.html">kindlysdk</a><span class="delimiter">/</span><a href="../index.html">no.kindly.android.chat.domain</a><span class="delimiter">/</span><a href="index.html">ChatInteractor</a></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Chat</span><wbr></wbr><span><span>Interactor</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">ChatInteractor</a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;chatManager<span class="token operator">: </span><span data-unresolved-link="no.kindly.android.sdk.domain/ChatManager///PointingToDeclaration/">ChatManager</span><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;fileStore<span class="token operator">: </span><a href="../../no.kindly.android.chat.data/-file-store/index.html">FileStore</a></span></span><span class="token punctuation">)</span> : <span data-unresolved-link="no.kindly.android.chat.domain.base/BaseUseCase///PointingToDeclaration/">BaseUseCase</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The class contains a logic between <span data-unresolved-link="no.kindly.android.sdk.domain/ChatManager///PointingToDeclaration/">ChatManager</span> and ChatViewModel</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Parameters</h2>
+      <div data-togglable="Parameters">
+        <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>chat</span><wbr></wbr><span><span>Manager</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><ul><li><p class="paragraph"><span data-unresolved-link="no.kindly.android.sdk.domain/ChatManager///PointingToDeclaration/">ChatManager</span> object</p></li></ul></div></div></div></div></div><div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span>file</span><wbr></wbr><span><span>Store</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><ul><li><p class="paragraph">file store</p></li></ul></div></div></div></div></div><div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>dispatcher</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><ul><li><p class="paragraph">base class to be extended by all coroutine dispatcher</p></li></ul></div></div></div></div></div></div></div></div></div>
+      </div>
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-1024299763%2FConstructors%2F-480908263" anchor-label="ChatInteractor" id="-1024299763%2FConstructors%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-chat-interactor.html"><span>Chat</span><wbr></wbr><span><span>Interactor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1024299763%2FConstructors%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-chat-interactor.html"><span class="token function">ChatInteractor</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;dispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;chatManager<span class="token operator">: </span><span data-unresolved-link="no.kindly.android.sdk.domain/ChatManager///PointingToDeclaration/">ChatManager</span><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;fileStore<span class="token operator">: </span><a href="../../no.kindly.android.chat.data/-file-store/index.html">FileStore</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-2022644429%2FFunctions%2F-480908263" anchor-label="buttonClick" id="-2022644429%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="button-click.html"><span>button</span><wbr></wbr><span><span>Click</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2022644429%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="button-click.html"><span class="token function">buttonClick</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain/MessageChat///PointingToDeclaration/">MessageChat</span><span class="token punctuation">, </span></span><span class="parameter ">button<span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain.entites/ButtonChat///PointingToDeclaration/">ButtonChat</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain.base/Result///PointingToDeclaration/">Result</span><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="no.kindly.android.sdk.data.entity/MessageActionResponse///PointingToDeclaration/">MessageActionResponse</span><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="594068541%2FFunctions%2F-480908263" anchor-label="connect" id="594068541%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="connect.html"><span><span>connect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="594068541%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="connect.html"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Connect to chat SDK</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1889119287%2FFunctions%2F-480908263" anchor-label="disconnect" id="1889119287%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="disconnect.html"><span><span>disconnect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1889119287%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="disconnect.html"><span class="token function">disconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Disconnect to chat SDK</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1182352181%2FFunctions%2F-480908263" anchor-label="downloadFile" id="1182352181%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="download-file.html"><span>download</span><wbr></wbr><span><span>File</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1182352181%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="download-file.html"><span class="token function">downloadFile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain.base/Result///PointingToDeclaration/">Result</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1977097971%2FFunctions%2F-480908263" anchor-label="initial" id="1977097971%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="initial.html"><span><span>initial</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1977097971%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="initial.html"><span class="token function">initial</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;apiKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;appCluster<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;chatBotKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;language<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain.base/Result///PointingToDeclaration/">Result</span><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="no.kindly.android.sdk.data.entity/ConnectiondData///PointingToDeclaration/">ConnectiondData</span><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="624277805%2FFunctions%2F-480908263" anchor-label="isDisconnect" id="624277805%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-disconnect.html"><span>is</span><wbr></wbr><span><span>Disconnect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="624277805%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="is-disconnect.html"><span class="token function">isDisconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">return state connection to chat SDK</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-115553418%2FFunctions%2F-480908263" anchor-label="postMessage" id="-115553418%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="post-message.html"><span>post</span><wbr></wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-115553418%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="post-message.html"><span class="token function">postMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain/MessageChat///PointingToDeclaration/">MessageChat</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain.base/Result///PointingToDeclaration/">Result</span><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="no.kindly.android.sdk.data.entity/MessageResponse///PointingToDeclaration/">MessageResponse</span><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph">Send message</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1059004080%2FFunctions%2F-480908263" anchor-label="subscribe" id="-1059004080%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="subscribe.html"><span><span>subscribe</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1059004080%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="subscribe.html"><span class="token function">subscribe</span></a><span class="token punctuation">(</span><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;nameChannel<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">vararg </span>eventNames<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;messageCallback<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span><span data-unresolved-link="no.kindly.android.sdk.data.store.entity/MessageDataSDK///PointingToDeclaration/">MessageDataSDK</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1274225006%2FFunctions%2F-480908263" anchor-label="unSubscribe" id="1274225006%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="un-subscribe.html"><span>un</span><wbr></wbr><span><span>Subscribe</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1274225006%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="un-subscribe.html"><span class="token function">unSubscribe</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">channel<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="103109909%2FFunctions%2F-480908263" anchor-label="uploadFile" id="103109909%2FFunctions%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="upload-file.html"><span>upload</span><wbr></wbr><span><span>File</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="103109909%2FFunctions%2F-480908263"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="upload-file.html"><span class="token function">uploadFile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">uri<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/net/Uri.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">exchangeId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="no.kindly.android.chat.domain.base/Result///PointingToDeclaration/">Result</span><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="no.kindly.android.chat.domain/MessageChat///PointingToDeclaration/">MessageChat</span><span class="token operator">&gt;</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

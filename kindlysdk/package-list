@@ -1,0 +1,123 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:no.kindly.android.chat.common////PointingToDeclaration/kindlysdk/no.kindly.android.chat.common/index.html
+$dokka.location:no.kindly.android.chat.common//colorList/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.common/color-list.html
+$dokka.location:no.kindly.android.chat.common//emailTo/android.content.Context#kotlin.String#kotlin.String?#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.common/email-to.html
+$dokka.location:no.kindly.android.chat.common//showToast/android.content.Context#kotlin.Int/PointingToDeclaration/kindlysdk/no.kindly.android.chat.common/show-toast.html
+$dokka.location:no.kindly.android.chat.data////PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/index.html
+$dokka.location:no.kindly.android.chat.data/FileStore///PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/-file-store/index.html
+$dokka.location:no.kindly.android.chat.data/FileStore/FileStore/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/-file-store/-file-store.html
+$dokka.location:no.kindly.android.chat.data/FileStore/downloadFile/#kotlin.String#java.io.InputStream/PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/-file-store/download-file.html
+$dokka.location:no.kindly.android.chat.data/FileStore/getMime/#android.net.Uri/PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/-file-store/get-mime.html
+$dokka.location:no.kindly.android.chat.data/FileStore/getNameFile/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/-file-store/get-name-file.html
+$dokka.location:no.kindly.android.chat.data/FileStore/sizeInKb/#java.io.File/PointingToDeclaration/kindlysdk/no.kindly.android.chat.data/-file-store/size-in-kb.html
+$dokka.location:no.kindly.android.chat.domain////PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/index.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor///PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/index.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/ChatInteractor/#kotlinx.coroutines.CoroutineDispatcher#no.kindly.android.sdk.domain.ChatManager#no.kindly.android.chat.data.FileStore/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/-chat-interactor.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/buttonClick/#no.kindly.android.chat.domain.MessageChat#no.kindly.android.chat.domain.entites.ButtonChat/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/button-click.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/connect/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/connect.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/disconnect/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/disconnect.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/downloadFile/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/download-file.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/initial/#kotlin.String#kotlin.String#kotlin.String#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/initial.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/isDisconnect/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/is-disconnect.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/postMessage/#no.kindly.android.chat.domain.MessageChat/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/post-message.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/subscribe/#kotlin.String#kotlin.Array[kotlin.String]#kotlin.Function1[no.kindly.android.sdk.data.store.entity.MessageDataSDK,kotlin.Unit]/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/subscribe.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/unSubscribe/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/un-subscribe.html
+$dokka.location:no.kindly.android.chat.domain/ChatInteractor/uploadFile/#android.net.Uri#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-chat-interactor/upload-file.html
+$dokka.location:no.kindly.android.chat.domain/DeleteLogUseCase///PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-delete-log-use-case/index.html
+$dokka.location:no.kindly.android.chat.domain/DeleteLogUseCase/DeleteLogUseCase/#kotlinx.coroutines.CoroutineDispatcher#no.kindly.android.sdk.domain.ChatManager/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-delete-log-use-case/-delete-log-use-case.html
+$dokka.location:no.kindly.android.chat.domain/DeleteLogUseCase/launch/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-delete-log-use-case/launch.html
+$dokka.location:no.kindly.android.chat.domain/GetDownloadLinkLogsUseCase///PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-get-download-link-logs-use-case/index.html
+$dokka.location:no.kindly.android.chat.domain/GetDownloadLinkLogsUseCase/GetDownloadLinkLogsUseCase/#no.kindly.android.sdk.domain.ChatManager#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-get-download-link-logs-use-case/-get-download-link-logs-use-case.html
+$dokka.location:no.kindly.android.chat.domain/GetDownloadLinkLogsUseCase/run/#no.kindly.android.sdk.data.entity.Format/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-get-download-link-logs-use-case/run.html
+$dokka.location:no.kindly.android.chat.domain/GetSettingsUseCase///PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-get-settings-use-case/index.html
+$dokka.location:no.kindly.android.chat.domain/GetSettingsUseCase/GetSettingsUseCase/#no.kindly.android.sdk.domain.ChatManager#no.kindly.android.chat.domain.cache.CacheSettings#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-get-settings-use-case/-get-settings-use-case.html
+$dokka.location:no.kindly.android.chat.domain/GetSettingsUseCase/launch/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.domain/-get-settings-use-case/launch.html
+$dokka.location:no.kindly.android.chat.presentation.chat////PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Companion///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-companion/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Companion/CHANNEL_BUBBLE/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-companion/-c-h-a-n-n-e-l_-b-u-b-b-l-e.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Companion/EVENT_MESSAGE/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-companion/-e-v-e-n-t_-m-e-s-s-a-g-e.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Companion/EVENT_START_TYPING/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-companion/-e-v-e-n-t_-s-t-a-r-t_-t-y-p-i-n-g.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Companion/EVENT_STOP_TYPING/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-companion/-e-v-e-n-t_-s-t-o-p_-t-y-p-i-n-g.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Companion/LOG_KEY/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-companion/-l-o-g_-k-e-y.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event.Connect///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/-connect/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event.Disconnect///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/-disconnect/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event.MessageUpdate///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/-message-update/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event.ReInitial///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/-re-initial/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event.Subscribe///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/-subscribe/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event.UnSubscribe///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/-un-subscribe/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel.Event///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-event/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/ChatViewModel/#no.kindly.android.chat.domain.ChatInteractor#no.kindly.android.chat.common.CallbackHandover#no.kindly.android.chat.domain.cache.SettingsEventsFlow#no.kindly.android.chat.domain.cache.CacheSettings/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/-chat-view-model.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/buttonClick/#no.kindly.android.chat.domain.MessageChat#no.kindly.android.chat.domain.entites.ButtonChat/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/button-click.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/buttonClicked/#no.kindly.android.chat.domain.entites.ButtonChat/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/button-clicked.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/downloadFile/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/download-file.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/handoverClick/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/handover-click.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/onReceivedUriFromGallery/#android.net.Uri#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/on-received-uri-from-gallery.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/onStart/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/on-start.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/onStop/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/on-stop.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/postMessage/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/post-message.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ChatViewModel/screenData/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-chat-view-model/screen-data.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.ErrorConnectionState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-error-connection-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.LoadingState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-loading-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessageSentErrorState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-message-sent-error-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessagesState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-messages-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessagesState/MessagesState/#kotlin.collections.List[no.kindly.android.chat.domain.MessageChat]#no.kindly.android.chat.presentation.chat.Action?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-messages-state/-messages-state.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessagesState/action/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-messages-state/action.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessagesState/equals/#kotlin.Any?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-messages-state/equals.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessagesState/hashCode/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-messages-state/hash-code.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.MessagesState/messageListType/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-messages-state/message-list-type.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState.UploadFileState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/-upload-file-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.chat/ConversationUiState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.chat/-conversation-ui-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.downloadscreen////PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.downloadscreen/index.html
+$dokka.location:no.kindly.android.chat.presentation.downloadscreen/DownloadConversationViewModel///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.downloadscreen/-download-conversation-view-model/index.html
+$dokka.location:no.kindly.android.chat.presentation.downloadscreen/DownloadConversationViewModel/DownloadConversationViewModel/#no.kindly.android.chat.domain.GetDownloadLinkLogsUseCase/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.downloadscreen/-download-conversation-view-model/-download-conversation-view-model.html
+$dokka.location:no.kindly.android.chat.presentation.downloadscreen/DownloadConversationViewModel/stateFlow/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.downloadscreen/-download-conversation-view-model/state-flow.html
+$dokka.location:no.kindly.android.chat.presentation.language////PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/index.html
+$dokka.location:no.kindly.android.chat.presentation.language//LanguageScreen/#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-screen.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageUIState.DefaultState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-u-i-state/-default-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageUIState.LanguagesCompleted///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-u-i-state/-languages-completed/index.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageUIState.LanguagesCompleted/LanguagesCompleted/#kotlin.collections.List[no.kindly.android.chat.domain.entites.SettingLanguage]?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-u-i-state/-languages-completed/-languages-completed.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageUIState.LanguagesCompleted/list/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-u-i-state/-languages-completed/list.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageUIState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-u-i-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageViewModel///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-view-model/index.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageViewModel/LanguageViewModel/#no.kindly.android.chat.domain.cache.CacheSettings#no.kindly.android.chat.domain.cache.SettingsEventsFlow/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-view-model/-language-view-model.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageViewModel/setLanguage/#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-view-model/set-language.html
+$dokka.location:no.kindly.android.chat.presentation.language/LanguageViewModel/stateFlow/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.language/-language-view-model/state-flow.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen////PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/index.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen//MainScreen/#no.kindly.android.chat.presentation.mainscreen.MainScreenViewModel/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState.ErrorState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/-error-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState.LoadingState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/-loading-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState.ShowConversationState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/-show-conversation-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState.ShowConversationState/ShowConversationState/#kotlin.String?#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/-show-conversation-state/-show-conversation-state.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState.ShowConversationState/codeLanguage/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/-show-conversation-state/code-language.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState.ShowConversationState/title/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/-show-conversation-state/title.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenUIState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-u-i-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenViewModel///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-view-model/index.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenViewModel/MainScreenViewModel/#no.kindly.android.chat.domain.GetSettingsUseCase#no.kindly.android.chat.domain.cache.SettingsEventsFlow#no.kindly.android.chat.domain.cache.CacheSettings/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-view-model/-main-screen-view-model.html
+$dokka.location:no.kindly.android.chat.presentation.mainscreen/MainScreenViewModel/mutableStateFlow/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.mainscreen/-main-screen-view-model/mutable-state-flow.html
+$dokka.location:no.kindly.android.chat.presentation.settings////PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/index.html
+$dokka.location:no.kindly.android.chat.presentation.settings//SettingsScreen/#kotlin.Function1[no.kindly.android.chat.presentation.settings.ScreenType,kotlin.Unit]/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-settings-screen.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingViewModel///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-setting-view-model/index.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingViewModel/SettingViewModel/#no.kindly.android.chat.domain.DeleteLogUseCase#no.kindly.android.chat.domain.cache.SettingsEventsFlow/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-setting-view-model/-setting-view-model.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingViewModel/settingsData/#/PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-setting-view-model/settings-data.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingsUiState.CompleteStartOverState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-settings-ui-state/-complete-start-over-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingsUiState.DefaultState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-settings-ui-state/-default-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingsUiState.DeleteChatLogState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-settings-ui-state/-delete-chat-log-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingsUiState.ErrorConnectionState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-settings-ui-state/-error-connection-state/index.html
+$dokka.location:no.kindly.android.chat.presentation.settings/SettingsUiState///PointingToDeclaration/kindlysdk/no.kindly.android.chat.presentation.settings/-settings-ui-state/index.html
+$dokka.location:no.kindly.android.chat////PointingToDeclaration/kindlysdk/no.kindly.android.chat/index.html
+$dokka.location:no.kindly.android.chat/ChatKindlySDK///PointingToDeclaration/kindlysdk/no.kindly.android.chat/-chat-kindly-s-d-k/index.html
+$dokka.location:no.kindly.android.chat/ChatKindlySDK/ChatKindlySDK/#android.app.Application#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.android.chat/-chat-kindly-s-d-k/-chat-kindly-s-d-k.html
+$dokka.location:no.kindly.android.chat/ChatKindlySDK/callHandover/#no.kindly.android.chat.common.CallbackHandover/PointingToDeclaration/kindlysdk/no.kindly.android.chat/-chat-kindly-s-d-k/call-handover.html
+$dokka.location:no.kindly.android.chat/ChatKindlySDK/launchChat/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.android.chat/-chat-kindly-s-d-k/launch-chat.html
+no.kindly.android.chat
+no.kindly.android.chat.common
+no.kindly.android.chat.data
+no.kindly.android.chat.domain
+no.kindly.android.chat.presentation.chat
+no.kindly.android.chat.presentation.downloadscreen
+no.kindly.android.chat.presentation.language
+no.kindly.android.chat.presentation.mainscreen
+no.kindly.android.chat.presentation.settings
+
