@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>kindlysdk</title>
+    <link href="images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script>
+<link href="styles/style.css" rel="Stylesheet">
+<link href="styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="styles/main.css" rel="Stylesheet">
+<link href="styles/prism.css" rel="Stylesheet">
+<link href="styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="scripts/prism.js" async="async"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="index.html">
+                    <span>kindlysdk</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="kindlysdk::////PointingToDeclaration//-480908263">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>kindlysdk</span></span></h1>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/release"><h1> KindlySDK </h1>
+Kindly ChatBot SDK is a communications service provider. The SDK platform provides chat using the XMPP and HTTPS protocols.<p class="paragraph"><h2>Initialisation SDK</h2></p><p class="paragraph">Initialize the SDK with the next credentials:</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">     | Name                    |           Type            |
+     |_________________________|___________________________|
+     | API key                 |                  String   |
+     | App Cluster             |                  String   |
+     | ChatBot key             |                  String   |
+     | Code language (optional)|           (&quot;en&quot;) String   |
+
+    The ChatKindlySDK class is responsible for the initialisation of the SDK.</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><h2> Requirements </h2>
+The minimum requirements for Kindly ChatBot SDK are:
+    Android 6.0 (API 23)
+    Gradle plugin 7.2.1
+    Gradle 7.3.3 <h2> Authentication </h2>
+    Kindly supports authenticating users. When your users are authenticated, it's easier to identify them in the Kindly Inbox and you can create more personalized and powerful webhook integrations.
+    To set this up you need to do a few things:
+      - Initialize SDK ChatKindlySDK(Application, ApiKey, ChatBotKey", Cluster)
+      - Connect to chat bot
+      - Subscribe to message channel a callback to Kindly Chat initialization code.
+    For more details read the the link (https://docs.kindly.ai/api/application) <h2> Start chatting </h2>
+     Open the ChatBot via the function launchChat with a context parameters. The sdk will connected with API and establishing connection for transferring messages. <h2> Image carousel </h2>
+     The SDK supports a feature showing a container (slideshow) of images or info that users can select by clicking a button that directs them forward or backward in the slideshow. A developer uploads images in the console the next formats: "gif", "jpeg", "jpg". Also, the developer can set a size of the images: SMALL - 218 dp, MEDIUM - 178 dp, BIG - 148 dp. <h2> Attachments </h2>
+    A user can upload 5 files. The SDK supports: "gif", "jpeg", "jpg" and "pdf". The max size of the file is 5 MB. In one time a user can upload min 1 and max 5 files. For viewing a pdf file uses the app installed on the device. <h2> Delete chat log </h2>
+    The current session wit the bot could be cleared by user. After removing logs the session reinitialised. <h2> Style configurations  </h2>
+    A developer can manage a pallet colors throughout the Kindly console https://app.kindly.ai/<div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">    By default the SDK uses the next color pallet:</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>ChatLogElements</td><td>Color(0xFF504F4F)</td><td>Time</td></tr><tr><td>ColorButtonOutline</td><td>Color(0xFFFFFFFF)</td><td>Outline color button</td></tr><tr><td>ColorBackground</td><td>Color(0xFFFFFFFF)</td><td>Background</td></tr><tr><td>ColorUserMessageBackground</td><td>Color(0xFF0069FF)</td><td>User bubble background</td></tr><tr><td>ColorBotMessageBackground</td><td>Color(0xFFF1F4F8)</td><td>Bot bubble background</td></tr><tr><td>ColorUserMessageTextColor</td><td>Color(0xFFFFFFFF)</td><td>User text message</td></tr><tr><td>ColorBotMessageTextColor</td><td>Color(0xFF232F41)</td><td>Bot text message</td></tr><tr><td>ColorButtonBackground</td><td>Color(0xFFFFFFFF)</td><td>Bot ButtonBackground</td></tr><tr><td>ColorInputText</td><td>Color(0xFF131313)</td><td>Text color input field</td></tr><tr><td>ColorHeaderText</td><td>Color(0xFFFFFFFF)</td><td>Color title text</td></tr><tr><td>ColorHeaderBackground</td><td>Color(0xFF445265)</td><td>Tab bar background</td></tr><tr><td>ColorButtonText</td><td>Color(0xFF090808)</td><td>Color button text</td></tr><tr><td>TextColorSettingButton</td><td>Color(0xFF232F41)</td><td>Color</td></tr><tr><td>ColorInputBackground</td><td>Color(0xFFF1F4F8)</td><td>Color input field background</td></tr><tr><td></td><td></td></tr></tbody></table><p class="paragraph"><h2>Button interaction types   </h2></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>External link</td><td>Supported</td></tr><tr><td>Trigger another dialogue</td><td>Supported</td></tr><tr><td>Quick reply</td><td>Supported</td></tr><tr><td>Email</td><td>Supported</td></tr><tr><td>Phone</td><td>Supported</td></tr><tr><td>Handover request</td><td>Partially supported.</td></tr><tr><td>Cancel followup</td><td>Supported</td></tr><tr><td>Upload attachment</td><td>Supported</td></tr><tr><td>Export chat conversation</td><td>Not supported. Available in Chat settings.</td></tr><tr><td>Delete chat conversation</td><td>Not supported. Available in Chat settings.</td></tr><tr><td>Leave contact details</td><td>Not supported</td></tr><tr><td>Checkbox</td><td>Not supported</td></tr><tr><td>Submit</td><td>Not supported</td></tr><tr><td>Slider</td><td>Not supported</td></tr></tbody></table><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">     Localization  
+    The SDK supports multiple languages.
+    The chat settings has an option to change the language. The main point after change the language a user loses current session. If users initials api he can uses language code for initializing an api.</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+  <h2 class="">Packages</h2>
+  <div class="table"><a data-name="398705305%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat" id="398705305%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat/index.html">no.kindly.android.chat</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="398705305%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1761637796%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.common" id="1761637796%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.common/index.html">no.kindly.android.chat.common</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1761637796%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="196162659%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.data" id="196162659%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.data/index.html">no.kindly.android.chat.data</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="196162659%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1552667453%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.domain" id="1552667453%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.domain/index.html">no.kindly.android.chat.domain</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1552667453%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-995327849%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.presentation.chat" id="-995327849%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.presentation.chat/index.html">no.kindly.android.chat.presentation.chat</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-995327849%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1013459725%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.presentation.downloadscreen" id="-1013459725%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.presentation.downloadscreen/index.html">no.kindly.android.chat.presentation.downloadscreen</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1013459725%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="662047255%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.presentation.language" id="662047255%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.presentation.language/index.html">no.kindly.android.chat.presentation.language</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="662047255%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1953586012%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.presentation.mainscreen" id="-1953586012%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.presentation.mainscreen/index.html">no.kindly.android.chat.presentation.mainscreen</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1953586012%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1057782562%2FPackages%2F-480908263" anchor-label="no.kindly.android.chat.presentation.settings" id="1057782562%2FPackages%2F-480908263" data-filterable-set=":kindlysdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/release" data-filterable-set=":kindlysdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="kindlysdk/no.kindly.android.chat.presentation.settings/index.html">no.kindly.android.chat.presentation.settings</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1057782562%2FPackages%2F-480908263"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
